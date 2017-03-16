@@ -1,0 +1,36 @@
+Στο git bash:
+
+git config --global user.name "Stavroula Bochrini"
+git config --global user.email "s.bochrini@gmail.com"
+(τα παραπάνω είναι τυπικά τελείως)
+
+git clone https://github.com/sbochrini/rinos.git
+(αν είναι στο φάκελο C:/Users/Spouli, η παραπάνω εντολή θα δημιουργήσει μέσα εκεί ένα φάκελο rinos, οπότε δεν είναι ανάγκη να τον φτιάξεις εσύ)
+
+cd rinos
+(για να μπεις στον φάκελο)
+
+git init
+
+Με τα παραπάνω θα έχεις στο pc ακριβώς ότι στο github repository. Αν κάνεις αλλαγές στο pc, αφού κάνεις τις αλλαγές, οι βασικές εντολές είναι:
+
+List the files you've changed and those you still need to add or commit: git status
+
+Add one files to staging (index): git add <filename>
+or more files to staging (index): git add *	
+
+Commit any files you've added with git add, and also commit any files you've changed since then: git push origin master
+Εδώ σε αναγκάζει να γράψεις και ένα μήνυμα για το commit, ώστε να ξέρεις γιατί κάνει commit. Στο παράθυρο που θα ανοίξει, πατάς i για να ξεκινήσει να γράφει, και όταν γράψεις το μήνυμα πατάς το ESC και μετά με πατητό το shift πατάς ZZ	git commit -a
+Send changes to the master branch of your remote repository:
+(με αυτό τα στέλνει στο github repository και σου ζητάει να δώσεις username και password, τα οποία είναι sbochrini - spouli1985)
+
+Αν κάποιες αλλαγές τις έχεις κάνει commit πχ από το pc στη δουλειά και θες να τα πάρεις και σπίτι, πατάς τις εξής εντολές (πρέπει πάντα να είσαι στο φάκελο που έχει το φάκελο .git, δηλαδή στο παράδειγμα C:/Users/Spouli/rinos):
+
+Fetch and merge changes on the remote server to your working directory:	git pull
+
+Το παραπάνω αν το έχεις ήδη κάνει clone. Αν όχι, με το clone παίρνεις όλον τον κώδικα. 
+’λλες βασικές εντολούλες εδώ: 
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+
+Στο github θα έλεγα να φτιάξες εξαρχής ένα repository με καλό όνομα (π.χ. bookstore) και να βάλεις gitignore για Yii
