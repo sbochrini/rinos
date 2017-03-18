@@ -12,7 +12,7 @@ cd rinos
 
 git init
 
-Με τα παραπάνω θα έχεις στο pc ακριβώς ότι στο github repository. Αν κάνεις αλλαγές στο pc, αφού κάνεις τις αλλαγές, οι βασικές εντολές είναι:
+Με τα παραπάνω θα έχεις στο pc ακριβώς ότι στο github repository. Αν κάνεις αλλαγές στο pc, αφού κάνεις τις αλλαγές, οι βασικές εντολές είναι.:
 
 List the files you've changed and those you still need to add or commit: git status
 
